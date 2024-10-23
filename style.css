@@ -23,7 +23,35 @@ body{
 h1{
     font-size: 2rem
     color: var(--bg-color)
+    front-weight: 700;
 }
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: nome;
+    color var(--bg-color);
+    margin: 0 2rem 1rem 0rem
+
+
+}
+
+nav a:hover{
+     text-decoration: underline;
+     transform: scale(0.90);
+     transition: transform 0.1s;    
+}
+
+footer{
+    
+}
+
+
+
 
 
 
